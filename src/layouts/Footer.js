@@ -28,8 +28,7 @@ const Footer = () => {
                     <ul>
                       <li className="fx">
                         <span>
-                          <i className="far fa-map-marker-alt" /> 55 Main
-                          Street, New York
+                          <i className="far fa-map-marker-alt" />Jl. Batu Indah Raya No.40
                         </span>
                       </li>
                       <li className="fx">
