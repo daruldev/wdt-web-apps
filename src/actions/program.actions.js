@@ -5,7 +5,7 @@ export const getProgram = () => {
     return async (dispatch) => {
         dispatch({ type: programConstants.FETCH_PROGRAM_REQUEST })
         try {
-            await axios.get(`http://localhost:3000/api/program`)
+            await axios.get(`https://wdt-kindergarten.herokuapp.com/api/program`)
                 .then(response => {
                     return response.data
                 })
@@ -39,7 +39,7 @@ export const getDetailProgram = (id) => async (dispatch) => {
     return new Promise(async (resolve, rejected) => {
         dispatch({ type: programConstants.PROGRAM_DETAIL_REQUEST })
         try {
-                await axios.get(`http://localhost:3000/api/program/${id}`)
+                await axios.get(`https://wdt-kindergarten.herokuapp.com/api/program/${id}`)
                     .then(response => {
                         return response.data
                     })

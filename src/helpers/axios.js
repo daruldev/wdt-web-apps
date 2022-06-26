@@ -2,7 +2,7 @@ import axios from 'axios';
 import store from '../store';
 
 const axiosIntance = axios.create({
-    baseURL: 'http://localhost:3000/api/',
+    baseURL: 'https://wdt-kindergarten.herokuapp.com/api/',
 });
 
 axiosIntance.interceptors.request.use((req) => {

@@ -29,12 +29,12 @@ const ProgramsDetails = () => {
       <PageBanner pageName={"Detail Program"} pageTitle={"Detail Program"} />
       <section className="tf-section tf-program-details">
         <img
-          src="http://localhost:3000/assets/images/pattern/program_details1.png"
+          src="https://wdt-kindergarten.herokuapp.com/assets/images/pattern/program_details1.png"
           alt=""
           className="bg1"
         />
         <img
-          src="http://localhost:3000/assets/images/pattern/program_details2.png"
+          src="https://wdt-kindergarten.herokuapp.com/assets/images/pattern/program_details2.png"
           alt=""
           className="bg2"
         />
