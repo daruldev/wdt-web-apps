@@ -29,7 +29,7 @@ const Header = () => {
                 <div id="site-logo" className="clearfix">
                   <Link href="/">
                     <a className="logo">
-                      <img src="https://wdt-kindergarten.herokuapp.com/assets/images/logo/logodark.png" alt="WDT" width="50" />
+                      <img src="https://wdt-kindergarten.herokuapp.com/assets/images/logo/logolight-1.png" alt="WDT" width="50" />
                     </a>
                   </Link>
                 </div>
